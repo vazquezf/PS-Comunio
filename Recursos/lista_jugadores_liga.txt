@@ -1,0 +1,3456 @@
+26
+Barcelona
+======
+J. Masip
+25
+180
+70
+POR
+-----
+C. Bravo
+30
+184
+84
+POR
+-----
+M. Ter Stegen
+22
+188
+82
+POR
+-----
+Douglas
+23
+171
+63
+DEF
+-----
+M. Bartra
+23
+181
+70
+DEF
+-----
+Adriano
+29
+172
+67
+DEF
+-----
+D. Alves
+30
+173
+64
+DEF
+-----
+T. Vermaelen
+28
+182
+75
+DEF
+-----
+G. Piqué
+27
+192
+85
+DEF
+-----
+Jordi Alba
+24
+165
+63
+DEF
+-----
+J. Mathieu
+30
+190
+82
+DEF
+-----
+Gerard Gumbau
+19
+188
+77
+MED
+-----
+Rafinha
+20
+177
+67
+MED
+-----
+A. Turan
+27
+176
+72
+MED
+-----
+Juan Cámara
+20
+180
+66
+MED
+-----
+Aleix Vidal
+24
+176
+70
+MED
+-----
+S. Busquets
+25
+189
+73
+MED
+-----
+J. Mascherano
+29
+178
+77
+MED
+-----
+Sergi Roberto
+22
+177
+70
+MED
+-----
+I. Rakitic
+25
+184
+79
+MED
+-----
+A. Iniesta
+29
+170
+65
+MED
+-----
+L. Messi
+26
+169
+67
+DEL
+-----
+Neymar
+22
+174
+64
+DEL
+-----
+Munir
+18
+175
+69
+DEL
+-----
+S. Ramírez
+19
+175
+68
+DEL
+-----
+L. Suárez
+27
+181
+81
+DEL
+-----
+25
+Real Madrid
+======
+K. Navas
+27
+186
+78
+POR
+-----
+K. Casilla
+27
+191
+84
+POR
+-----
+Rubén Yáñez
+20
+188
+80
+POR
+-----
+R. Varane
+20
+191
+76
+DEF
+-----
+Á. Arbeloa
+31
+183
+79
+DEF
+-----
+D. Carvajal
+22
+173
+70
+DEF
+-----
+Pepe
+30
+186
+72
+DEF
+-----
+Sergio Ramos
+27
+183
+73
+DEF
+-----
+Danilo
+23
+184
+73
+DEF
+-----
+Nacho
+24
+180
+74
+DEF
+-----
+Marcelo
+25
+174
+73
+DEF
+-----
+M. Kovacic
+19
+181
+75
+MED
+-----
+Isco
+21
+175
+79
+MED
+-----
+D. Cheryshev
+23
+179
+74
+MED
+-----
+Lucas Vázquez
+23
+173
+69
+MED
+-----
+L. Modric
+28
+175
+67
+MED
+-----
+T. Kroos
+24
+182
+71
+MED
+-----
+Casemiro
+21
+184
+80
+MED
+-----
+Marcos Llorente
+19
+182
+65
+MED
+-----
+James
+23
+180
+77
+MED
+-----
+M. Ødegaard
+15
+176
+68
+MED
+-----
+K. Benzema
+26
+182
+74
+DEL
+-----
+G. Bale
+24
+183
+74
+DEL
+-----
+Jesé
+20
+178
+72
+DEL
+-----
+C. Ronaldo
+29
+186
+75
+DEL
+-----
+27
+Atlético
+======
+Bernabé
+21
+189
+76
+POR
+-----
+Moyá
+29
+185
+75
+POR
+-----
+J. Oblak
+21
+188
+77
+POR
+-----
+Jesús Gámez
+28
+182
+77
+DEF
+-----
+D. Godín
+27
+185
+73
+DEF
+-----
+S. Savic
+23
+186
+73
+DEF
+-----
+G. Siqueira
+28
+184
+76
+DEF
+-----
+Juanfran
+29
+180
+72
+DEF
+-----
+J. Giménez
+19
+185
+80
+DEF
+-----
+Lucas Hernández
+18
+DEF
+-----
+Filipe Luis
+28
+182
+70
+DEF
+-----
+Koke
+22
+178
+73
+MED
+-----
+Gabi
+30
+179
+73
+MED
+-----
+Ó. Torres
+19
+178
+70
+MED
+-----
+Keita
+19
+MED
+-----
+Kader
+22
+MED
+-----
+Tiago
+32
+183
+75
+MED
+-----
+Rubén Pérez
+24
+178
+70
+MED
+-----
+Thomas
+21
+185
+73
+MED
+-----
+Saúl
+19
+181
+70
+MED
+-----
+Raúl García
+27
+183
+80
+MED
+-----
+Á. Correa
+19
+174
+73
+DEL
+-----
+J. Martínez
+27
+184
+75
+DEL
+-----
+F. Torres
+29
+186
+78
+DEL
+-----
+Y. Ferreira-Carrasco
+20
+180
+66
+DEL
+-----
+L. Vietto
+20
+173
+68
+DEL
+-----
+A. Griezmann
+22
+174
+72
+DEL
+-----
+27
+Valencia
+======
+M. Ryan
+22
+182
+85
+POR
+-----
+D. Alves
+28
+188
+83
+POR
+-----
+Yoel
+25
+186
+78
+POR
+-----
+Jaume Doménech
+23
+185
+79
+POR
+-----
+L. Orbán
+25
+185
+77
+DEF
+-----
+A. Barragán
+26
+182
+76
+DEF
+-----
+J. Cancelo
+20
+182
+66
+DEF
+-----
+J. Gayà
+18
+172
+67
+DEF
+-----
+A. Abdennour
+25
+187
+84
+DEF
+-----
+S. Mustafi
+21
+184
+82
+DEF
+-----
+I. Diallo
+17
+DEF
+-----
+Rúben Vezo
+19
+184
+76
+DEF
+-----
+Aderlan Santos
+25
+193
+83
+DEF
+-----
+Tropi
+173
+MED
+-----
+Danilo
+18
+183
+MED
+-----
+Javi Fuego
+30
+181
+74
+MED
+-----
+D. Parejo
+24
+180
+75
+MED
+-----
+A. Gomes
+20
+188
+83
+MED
+-----
+E. Pérez
+28
+177
+71
+MED
+-----
+R. De Paul
+20
+178
+78
+MED
+-----
+S. Feghouli
+25
+178
+71
+MED
+-----
+Á. Negredo
+28
+186
+85
+DEL
+-----
+Z. Bakkali
+18
+DEL
+-----
+Rodrigo
+23
+180
+74
+DEL
+-----
+P. Alcácer
+20
+174
+71
+DEL
+-----
+Santi Mina
+18
+177
+71
+DEL
+-----
+P. Piatti
+24
+163
+63
+DEL
+-----
+31
+Athletic
+======
+G. Iraizoz
+32
+191
+81
+POR
+-----
+I. Herrerín
+26
+188
+82
+POR
+-----
+Remiro
+19
+191
+82
+POR
+-----
+M. Balenziaga
+25
+176
+70
+DEF
+-----
+A. Laporte
+19
+189
+85
+DEF
+-----
+C. Gurpegui
+33
+181
+77
+DEF
+-----
+M. San José
+24
+186
+77
+DEF
+-----
+Saborit
+21
+186
+72
+DEF
+-----
+Eneko Bóveda
+25
+180
+77
+DEF
+-----
+X. Etxeita
+26
+185
+79
+DEF
+-----
+Ramalho
+21
+181
+68
+DEF
+-----
+J. Aurtenetxe
+22
+182
+82
+DEF
+-----
+Raúl García
+27
+183
+80
+MED
+-----
+G. Elustondo
+26
+183
+78
+MED
+-----
+Unai López
+18
+170
+65
+MED
+-----
+M. Susaeta
+26
+179
+68
+MED
+-----
+A. Aketxe
+20
+174
+70
+MED
+-----
+Guarrotxena
+21
+175
+70
+MED
+-----
+Eraso
+24
+180
+71
+MED
+-----
+Ó. De Marcos
+24
+180
+76
+MED
+-----
+I. Lekue
+21
+179
+71
+MED
+-----
+A. Iturraspe
+24
+187
+74
+MED
+-----
+Mikel Rico
+36
+182
+75
+MED
+-----
+Beñat
+26
+179
+72
+MED
+-----
+K. Sola
+27
+184
+84
+DEL
+-----
+I. Muniain
+21
+168
+63
+DEL
+-----
+A. Aduriz
+32
+181
+75
+DEL
+-----
+B. Viguera
+27
+184
+80
+DEL
+-----
+Sabin
+22
+186
+80
+DEL
+-----
+I. Williams
+20
+186
+77
+DEL
+-----
+Ibai Gómez
+24
+177
+72
+DEL
+-----
+32
+Sevilla
+======
+Beto
+31
+180
+80
+POR
+-----
+Sergio Rico
+20
+194
+90
+POR
+-----
+David Soria
+21
+190
+83
+POR
+-----
+A. Rami
+28
+190
+90
+DEF
+-----
+N. Pareja
+30
+183
+75
+DEF
+-----
+B. Trémoulinas
+28
+173
+64
+DEF
+-----
+Mariano
+28
+177
+69
+DEF
+-----
+T. Kolodziejczak
+22
+185
+73
+DEF
+-----
+S. Escudero
+24
+176
+65
+DEF
+-----
+D. Carriço
+25
+182
+79
+DEF
+-----
+M. Andreolli
+27
+187
+81
+DEF
+-----
+Coke
+26
+182
+78
+DEF
+-----
+G. Krychowiak
+24
+186
+85
+MED
+-----
+V. Iborra
+26
+190
+76
+MED
+-----
+S. Cristóforo
+20
+174
+65
+MED
+-----
+J. Reyes
+30
+176
+76
+MED
+-----
+Barnils
+20
+MED
+-----
+Vitolo
+24
+183
+80
+MED
+-----
+Luismi
+22
+180
+76
+MED
+-----
+A. Cotán
+18
+176
+67
+MED
+-----
+G. Kakuta
+23
+172
+67
+MED
+-----
+S. N'Zonzi
+25
+190
+75
+MED
+-----
+É. Banega
+26
+174
+71
+MED
+-----
+M. Krohn-Dehli
+30
+170
+71
+MED
+-----
+B. Rabello
+20
+168
+65
+MED
+-----
+D. Suárez
+20
+181
+66
+MED
+-----
+C. Immobile
+23
+186
+73
+DEL
+-----
+Y. Konoplyanka
+24
+176
+69
+DEL
+-----
+F. Llorente
+28
+195
+90
+DEL
+-----
+K. Gameiro
+26
+172
+69
+DEL
+-----
+Juan Muñoz
+18
+DEL
+-----
+Carlos
+18
+186
+72
+DEL
+-----
+28
+Espanyol
+======
+Andrés
+20
+193
+86
+POR
+-----
+F. Bardi
+21
+188
+83
+POR
+-----
+Pau
+19
+189
+77
+POR
+-----
+Arbilla
+26
+177
+75
+DEF
+-----
+E. Roco
+21
+188
+82
+DEF
+-----
+Víctor Álvarez
+20
+178
+69
+DEF
+-----
+Raíllo
+22
+184
+79
+DEF
+-----
+Fuentes
+24
+178
+72
+DEF
+-----
+M. Ciani
+29
+192
+88
+DEF
+-----
+Álvaro
+24
+180
+68
+DEF
+-----
+Rober
+21
+DEF
+-----
+Javi López
+28
+180
+74
+DEF
+-----
+R. Duarte
+18
+172
+68
+DEF
+-----
+Víctor Sánchez
+26
+180
+73
+MED
+-----
+Joan Jordán
+20
+184
+74
+MED
+-----
+H. Pérez
+25
+180
+77
+MED
+-----
+Salva Sevilla
+29
+178
+70
+MED
+-----
+Montañés
+27
+172
+70
+MED
+-----
+Cristian Gómez
+24
+186
+80
+MED
+-----
+C. Alfonso
+25
+MED
+-----
+Burgui
+20
+185
+68
+MED
+-----
+Abraham
+28
+179
+75
+MED
+-----
+M. Asensio
+18
+170
+MED
+-----
+J. Cañas
+26
+180
+71
+MED
+-----
+P. Diop
+28
+180
+73
+MED
+-----
+Gerard Moreno
+22
+177
+75
+DEL
+-----
+Mamadou
+20
+184
+80
+DEL
+-----
+F. Caicedo
+25
+185
+78
+DEL
+-----
+29
+Deportivo
+======
+G. Lux
+32
+186
+77
+POR
+-----
+Manu Fernández
+28
+180
+75
+POR
+-----
+Fabri
+26
+180
+67
+POR
+-----
+David
+20
+POR
+-----
+Laure
+29
+165
+65
+DEF
+-----
+Iago
+21
+DEF
+-----
+Sidnei
+24
+185
+80
+DEF
+-----
+Luisinho
+29
+175
+63
+DEF
+-----
+Arribas
+24
+182
+75
+DEF
+-----
+Manuel Pablo
+38
+180
+75
+DEF
+-----
+Saúl
+19
+183
+71
+DEF
+-----
+F. Navarro
+31
+178
+70
+DEF
+-----
+Lopo
+34
+185
+255
+DEF
+-----
+Juanfran
+25
+179
+72
+DEF
+-----
+H. Medunjanin
+29
+188
+78
+MED
+-----
+J. Gutiérrez
+30
+183
+78
+MED
+-----
+Cani
+32
+180
+75
+MED
+-----
+F. Cartabia
+21
+169
+65
+MED
+-----
+Álex Bergantiños
+29
+175
+75
+MED
+-----
+F. Fajr
+25
+178
+72
+MED
+-----
+C. Borges
+26
+182
+78
+MED
+-----
+Mosquera
+25
+184
+77
+MED
+-----
+Miguel Cardoso
+19
+176
+71
+MED
+-----
+D. Salomão
+25
+175
+72
+MED
+-----
+Juan Domínguez
+24
+181
+71
+MED
+-----
+Oriol Riera
+27
+184
+78
+DEL
+-----
+J. Rodriguez
+21
+181
+78
+DEL
+-----
+Lucas
+25
+181
+78
+DEL
+-----
+Luis Alberto
+21
+182
+70
+DEL
+-----
+30
+R. Sociedad
+======
+Ander
+192
+78
+POR
+-----
+Oier
+24
+191
+95
+POR
+-----
+G. Rulli
+22
+189
+80
+POR
+-----
+A. De La Bella
+28
+182
+80
+DEF
+-----
+Í. Martínez
+22
+181
+77
+DEF
+-----
+Héctor
+23
+173
+71
+DEF
+-----
+Raúl Navas
+26
+178
+77
+DEF
+-----
+Mikel González
+28
+188
+80
+DEF
+-----
+A. Elustondo
+DEF
+-----
+C. Martínez
+27
+188
+78
+DEF
+-----
+J. Ansotegi
+31
+192
+84
+DEF
+-----
+Yuri
+24
+181
+77
+DEF
+-----
+D. Reyes
+21
+189
+64
+DEF
+-----
+J. Zaldúa
+21
+169
+59
+DEF
+-----
+A. Illarramendi
+23
+177
+74
+MED
+-----
+A. Oyarzun
+20
+MED
+-----
+C. Castro
+29
+176
+70
+MED
+-----
+E. Granero
+26
+179
+77
+MED
+-----
+D. Zurutuza
+27
+184
+78
+MED
+-----
+R. Pardo
+21
+182
+68
+MED
+-----
+Alejandro Sanz
+21
+MED
+-----
+M. Bergara
+27
+180
+74
+MED
+-----
+Eneko
+MED
+-----
+Bruma
+19
+173
+70
+MED
+-----
+S. Canales
+22
+176
+65
+MED
+-----
+Xabi Prieto
+30
+185
+82
+MED
+-----
+I. Agirretxe
+26
+186
+77
+DEL
+-----
+C. Vela
+24
+180
+67
+DEL
+-----
+D. Concha
+17
+177
+62
+DEL
+-----
+Jonathas
+25
+190
+81
+DEL
+-----
+28
+Celta
+======
+Sergio Álvarez
+27
+180
+75
+POR
+-----
+Nestor
+22
+POR
+-----
+Rubén
+18
+188
+80
+POR
+-----
+G. Cabral
+28
+182
+80
+DEF
+-----
+D. Wass
+25
+181
+74
+DEF
+-----
+A. Fontàs
+24
+185
+89
+DEF
+-----
+L. Olaza
+20
+173
+70
+DEF
+-----
+Sergi Gómez
+22
+187
+80
+DEF
+-----
+Hugo Mallo
+22
+173
+69
+DEF
+-----
+Samu
+DEF
+-----
+Jonny
+19
+175
+70
+DEF
+-----
+C. Planas
+22
+173
+77
+DEF
+-----
+Kevin
+21
+DEF
+-----
+N. Radoja
+21
+MED
+-----
+A. Fernández
+27
+177
+71
+MED
+-----
+P. Hernández
+32
+183
+76
+MED
+-----
+Borja Fernández
+18
+MED
+-----
+L. Madinda
+22
+182
+77
+MED
+-----
+P. Diop
+16
+MED
+-----
+Señé
+23
+185
+74
+MED
+-----
+F. Orellana
+28
+169
+68
+MED
+-----
+D. Dražic
+18
+175
+69
+MED
+-----
+Borja Iglesias
+21
+DEL
+-----
+Iago Aspas
+26
+176
+67
+DEL
+-----
+Diego Alende
+16
+DEL
+-----
+J. Guidetti
+21
+185
+79
+DEL
+-----
+Nolito
+27
+175
+73
+DEL
+-----
+T. Bongonda
+18
+DEL
+-----
+30
+Real Betis
+======
+A. Adán
+26
+190
+92
+POR
+-----
+Dani Giménez
+30
+182
+77
+POR
+-----
+Pedro López
+19
+POR
+-----
+C. Piccini
+21
+183
+77
+DEF
+-----
+Varela
+19
+DEF
+-----
+Molinero
+28
+175
+72
+DEF
+-----
+A. Tarek
+22
+DEF
+-----
+J. Figueras
+26
+185
+82
+DEF
+-----
+G. Pezzella
+23
+187
+82
+DEF
+-----
+H. Westermann
+30
+190
+87
+DEF
+-----
+José Caro
+20
+182
+70
+DEF
+-----
+Bruno
+24
+DEF
+-----
+Petros
+25
+MED
+-----
+D. Digard
+28
+183
+82
+MED
+-----
+J. Matilla
+25
+176
+72
+MED
+-----
+D. Ceballos
+18
+176
+75
+MED
+-----
+Á. Vadillo
+19
+180
+69
+MED
+-----
+Fabián
+18
+MED
+-----
+Joaquín
+32
+179
+75
+MED
+-----
+J. Vargas
+30
+180
+77
+MED
+-----
+Xavi Torres
+27
+184
+82
+MED
+-----
+A. N'diaye
+24
+188
+94
+MED
+-----
+F. Portillo
+23
+169
+63
+MED
+-----
+R. Van Der Vaart
+31
+176
+74
+MED
+-----
+F. Kadir
+31
+179
+73
+MED
+-----
+Cejudo
+30
+176
+74
+MED
+-----
+R. Van Wolfswinkel
+25
+186
+74
+DEL
+-----
+V. Rennella
+25
+188
+78
+DEL
+-----
+Jorge Molina
+31
+188
+87
+DEL
+-----
+Rubén Castro
+32
+174
+72
+DEL
+-----
+29
+Sporting
+======
+Alberto García
+29
+182
+77
+POR
+-----
+Cuéllar
+30
+187
+82
+POR
+-----
+Dennis
+21
+182
+66
+POR
+-----
+Alberto
+21
+184
+74
+DEF
+-----
+Bernardo
+25
+192
+84
+DEF
+-----
+Canella
+26
+180
+70
+DEF
+-----
+Julio
+18
+194
+86
+DEF
+-----
+Luis Hernández
+24
+182
+76
+DEF
+-----
+Jorge Meré
+17
+DEF
+-----
+Álex Menéndez
+23
+181
+67
+DEF
+-----
+Lora
+30
+168
+67
+DEF
+-----
+Rachid
+21
+190
+86
+MED
+-----
+Mandi
+25
+180
+75
+MED
+-----
+Omar
+21
+180
+72
+MED
+-----
+Jony
+180
+80
+MED
+-----
+C. Carmona
+27
+177
+72
+MED
+-----
+Guitián
+23
+182
+74
+MED
+-----
+Barrera
+23
+190
+78
+MED
+-----
+Pablo Pérez
+20
+187
+71
+MED
+-----
+Sergio Álvarez
+22
+180
+65
+MED
+-----
+Nacho Cases
+26
+175
+67
+MED
+-----
+Juan Muñiz
+22
+175
+69
+MED
+-----
+Hugo Fraile
+27
+MED
+-----
+Guerrero
+24
+181
+76
+DEL
+-----
+A. Halilovic
+18
+170
+65
+DEL
+-----
+Isma López
+24
+180
+76
+DEL
+-----
+A. Sanabria
+18
+180
+70
+DEL
+-----
+Castro
+176
+72
+DEL
+-----
+Mendigutxia
+21
+183
+79
+DEL
+-----
+31
+Las Palmas
+======
+Raúl Lizoain
+23
+181
+71
+POR
+-----
+Dani Lorenzo
+21
+POR
+-----
+Javi Varas
+31
+182
+73
+POR
+-----
+J. Garrido
+28
+180
+75
+DEF
+-----
+David García
+32
+180
+76
+DEF
+-----
+Bigas
+24
+180
+78
+DEF
+-----
+Dani Castellano
+26
+180
+76
+DEF
+-----
+A. Alcáraz
+31
+187
+78
+DEF
+-----
+David Simón
+24
+DEF
+-----
+Ángel López
+33
+180
+71
+DEF
+-----
+Aythami Artiles
+28
+185
+81
+DEF
+-----
+Nili
+20
+MED
+-----
+Javi Castellano
+26
+178
+71
+MED
+-----
+Culio
+29
+MED
+-----
+Nauzet Alemán
+29
+178
+71
+MED
+-----
+Leo
+MED
+-----
+N. El Zhar
+27
+170
+67
+MED
+-----
+J. Valerón
+39
+180
+70
+MED
+-----
+José Artiles
+21
+167
+56
+MED
+-----
+Vicente Gómez
+25
+187
+77
+MED
+-----
+J. Viera
+24
+170
+64
+MED
+-----
+M. Wakaso
+24
+171
+69
+MED
+-----
+Momo
+32
+182
+74
+MED
+-----
+Roque
+25
+171
+72
+MED
+-----
+Hernán
+23
+180
+74
+MED
+-----
+F. Bravo
+20
+185
+82
+MED
+-----
+Tyronne
+182
+74
+MED
+-----
+Asdrúbal
+183
+75
+DEL
+-----
+Tana
+23
+168
+65
+DEL
+-----
+Willian José
+22
+186
+87
+DEL
+-----
+S. Araujo
+22
+180
+72
+DEL
+-----
+30
+Rayo Vallecano
+======
+Álex Campos
+23
+180
+70
+POR
+-----
+Juan Carlos
+26
+185
+81
+POR
+-----
+Cobeño
+31
+188
+82
+POR
+-----
+Toño
+34
+182
+81
+POR
+-----
+R. Rat
+33
+178
+72
+DEF
+-----
+Tito
+28
+174
+62
+DEF
+-----
+Morcillo
+28
+185
+81
+DEF
+-----
+O. Cissé
+23
+195
+85
+DEF
+-----
+Aguirre
+23
+DEF
+-----
+A. Amaya
+30
+192
+86
+DEF
+-----
+Llorente
+20
+186
+75
+DEF
+-----
+Quini
+24
+178
+73
+DEF
+-----
+Zé Castro
+31
+183
+76
+DEF
+-----
+Dorado
+31
+180
+76
+DEF
+-----
+Nacho Martínez
+24
+175
+76
+DEF
+-----
+Zhang Chengdong
+25
+185
+84
+MED
+-----
+Jozabed
+23
+180
+67
+MED
+-----
+Embarba
+MED
+-----
+A. Pozuelo
+22
+170
+63
+MED
+-----
+R. Trashorras
+32
+177
+71
+MED
+-----
+Pablo
+18
+MED
+-----
+Raúl Baena
+24
+179
+73
+MED
+-----
+L. Fariña
+23
+177
+71
+MED
+-----
+Lass
+21
+174
+68
+MED
+-----
+P. Ebert
+26
+170
+68
+MED
+-----
+P. Hernández
+28
+173
+64
+MED
+-----
+Bebé
+24
+190
+86
+DEL
+-----
+Miku
+28
+186
+79
+DEL
+-----
+Manucho
+30
+190
+80
+DEL
+-----
+Javi Guerra
+30
+179
+77
+DEL
+-----
+31
+Granada
+======
+Andrés Fernández
+27
+184
+86
+POR
+-----
+I. Kelava
+25
+195
+90
+POR
+-----
+S. Dimitrievski
+20
+188
+84
+POR
+-----
+Neuton
+24
+182
+DEF
+-----
+Fran Morante
+22
+180
+72
+DEF
+-----
+C. Biraghi
+21
+176
+DEF
+-----
+Mainz
+31
+187
+80
+DEF
+-----
+Lombán
+26
+188
+84
+DEF
+-----
+Doria
+DEF
+-----
+M. Lopes
+27
+182
+83
+DEF
+-----
+Salva Ruiz
+19
+175
+70
+DEF
+-----
+J. Babin
+27
+182
+84
+DEF
+-----
+S. Marreh
+18
+184
+75
+DEF
+-----
+D. Foulquier
+20
+182
+78
+DEF
+-----
+Y. Musavu-King
+23
+186
+82
+DEF
+-----
+Fran Rico
+26
+178
+71
+MED
+-----
+Rubén Pérez
+24
+178
+70
+MED
+-----
+U. Agbo
+18
+186
+73
+MED
+-----
+C. Aboagye
+19
+169
+55
+MED
+-----
+Robert
+21
+175
+65
+MED
+-----
+Javi Márquez
+27
+174
+71
+MED
+-----
+R. Krhin
+23
+189
+78
+MED
+-----
+N. Jaadi
+18
+179
+71
+MED
+-----
+R. Rochina
+22
+179
+74
+DEL
+-----
+J. Córdoba
+20
+188
+84
+DEL
+-----
+Nico Lopez
+20
+DEL
+-----
+Édgar Méndez
+23
+188
+78
+DEL
+-----
+Piti
+32
+174
+69
+DEL
+-----
+Y. El-Arabi
+27
+183
+70
+DEL
+-----
+I. Success
+18
+178
+DEL
+-----
+Thievy
+22
+180
+74
+DEL
+-----
+37
+Villarreal
+======
+Miguel Bañuz
+21
+186
+POR
+-----
+S. Asenjo
+24
+189
+70
+POR
+-----
+A. Areola
+21
+191
+85
+POR
+-----
+M. Barbosa
+29
+190
+77
+POR
+-----
+Aitor Fernández
+22
+182
+70
+POR
+-----
+Mario
+23
+178
+71
+DEF
+-----
+Javi Jiménez
+18
+DEF
+-----
+A. Marín
+DEF
+-----
+Víctor Ruiz
+25
+184
+80
+DEF
+-----
+Pablo Íñiguez
+20
+183
+72
+DEF
+-----
+A. Rukavina
+30
+178
+74
+DEF
+-----
+B. Jokic
+27
+176
+75
+DEF
+-----
+Musacchio
+23
+180
+73
+DEF
+-----
+D. Bonera
+32
+183
+74
+DEF
+-----
+E. Bailly
+20
+188
+75
+DEF
+-----
+E. Ié
+20
+183
+DEF
+-----
+Jaume Costa
+25
+171
+65
+DEF
+-----
+Felipe
+21
+175
+66
+DEF
+-----
+Samu Castillejo
+19
+179
+59
+MED
+-----
+Pina
+26
+184
+75
+MED
+-----
+Javi Espinosa
+21
+174
+68
+MED
+-----
+A. García
+17
+MED
+-----
+J. Dos Santos
+23
+180
+74
+MED
+-----
+Trigueros
+22
+178
+70
+MED
+-----
+Alfonso
+18
+MED
+-----
+Bruno
+29
+184
+70
+MED
+-----
+A. Shvets
+21
+MED
+-----
+D. Suárez
+20
+181
+66
+MED
+-----
+M. Nahuel
+17
+MED
+-----
+Adrián
+26
+180
+71
+DEL
+-----
+Samu García
+23
+179
+73
+DEL
+-----
+Fran Sol
+22
+181
+77
+DEL
+-----
+F. Acosta
+18
+176
+DEL
+-----
+C. Bakambu
+23
+180
+70
+DEL
+-----
+L. Baptistão
+21
+181
+71
+DEL
+-----
+J. Pereira
+26
+167
+59
+DEL
+-----
+R. Soldado
+28
+179
+81
+DEL
+-----
+27
+Levante
+======
+Jesús Fernández
+25
+190
+77
+POR
+-----
+Mariño
+23
+185
+75
+POR
+-----
+Rubén
+29
+187
+80
+POR
+-----
+Toño
+24
+179
+70
+DEF
+-----
+Bardanca
+DEF
+-----
+N. Karabelas
+29
+180
+72
+DEF
+-----
+Juanfran
+37
+183
+78
+DEF
+-----
+Trujillo
+26
+179
+79
+DEF
+-----
+Ivan López
+20
+175
+69
+DEF
+-----
+I. El Adoua
+27
+189
+76
+DEF
+-----
+Pedro López
+30
+174
+72
+DEF
+-----
+Cote
+21
+178
+72
+DEF
+-----
+David Navarro
+33
+188
+82
+DEF
+-----
+Z. Feddal
+25
+192
+83
+DEF
+-----
+Xumetra
+28
+172
+73
+MED
+-----
+José Mari
+26
+180
+72
+MED
+-----
+Simão Junior
+25
+178
+78
+MED
+-----
+J. Lerma
+20
+179
+70
+MED
+-----
+Camarasa
+19
+183
+76
+MED
+-----
+Morales
+27
+MED
+-----
+Rubén García
+20
+171
+72
+MED
+-----
+Verza
+27
+177
+68
+MED
+-----
+Roger
+23
+DEL
+-----
+N. Ghilas
+24
+183
+85
+DEL
+-----
+Víctor
+28
+180
+80
+DEL
+-----
+Jason
+19
+178
+65
+DEL
+-----
+Deyverson
+23
+189
+82
+DEL
+-----
+35
+Eibar
+======
+Riesgo
+30
+185
+76
+POR
+-----
+Jaime
+33
+188
+80
+POR
+-----
+Jorge Mediavilla
+21
+187
+78
+POR
+-----
+Irureta
+28
+180
+74
+POR
+-----
+Lopez J.
+18
+DEF
+-----
+Gayoso
+175
+72
+DEF
+-----
+Lillo
+25
+176
+71
+DEF
+-----
+Juncá
+20
+DEF
+-----
+Mauro
+25
+180
+76
+DEF
+-----
+Arregi
+24
+178
+80
+DEF
+-----
+I. Ramis
+29
+188
+82
+DEF
+-----
+Ekiza
+25
+180
+73
+DEF
+-----
+A. Pantic
+21
+184
+77
+DEF
+-----
+Luna
+22
+177
+68
+DEF
+-----
+D. Boateng
+30
+183
+78
+MED
+-----
+Dani García
+24
+180
+75
+MED
+-----
+T. Inui
+26
+169
+63
+MED
+-----
+S. Verdi
+22
+171
+61
+MED
+-----
+Capa
+22
+173
+70
+MED
+-----
+I. Hajrovic
+22
+177
+71
+MED
+-----
+Saúl
+28
+178
+83
+MED
+-----
+Dani Nieto
+23
+173
+60
+MED
+-----
+E. Israfilov
+21
+191
+84
+MED
+-----
+Adrián
+25
+184
+75
+MED
+-----
+Errasti
+26
+180
+81
+MED
+-----
+Barrenetxea
+20
+MED
+-----
+G. Escalante
+21
+179
+75
+MED
+-----
+Aitor  Ortega
+178
+73
+DEL
+-----
+T. Lubanzadio
+DEL
+-----
+Keko
+22
+172
+68
+DEL
+-----
+Julen Iriarte
+186
+82
+DEL
+-----
+Arruabarrena
+31
+188
+79
+DEL
+-----
+Ozkoidi
+24
+170
+60
+DEL
+-----
+Borja Bastón
+21
+191
+82
+DEL
+-----
+Sergi Enrich
+24
+181
+77
+DEL
+-----
+29
+Getafe
+======
+Guaita
+26
+190
+80
+POR
+-----
+B. Megyeri
+24
+188
+82
+POR
+-----
+Carlos Vigaray
+19
+182
+70
+DEF
+-----
+Damián Suárez
+25
+173
+68
+DEF
+-----
+J. Cala
+24
+185
+78
+DEF
+-----
+Villalón
+18
+184
+75
+DEF
+-----
+Alexis
+28
+183
+75
+DEF
+-----
+E. Velázquez
+20
+185
+68
+DEF
+-----
+S. Vergini
+25
+191
+83
+DEF
+-----
+García-Noblejas
+21
+187
+75
+DEF
+-----
+R. Lago
+28
+178
+76
+DEF
+-----
+Pedro León
+27
+182
+70
+MED
+-----
+P. Sarabia
+21
+174
+70
+MED
+-----
+Bernard
+19
+MED
+-----
+M. Lacen
+30
+176
+74
+MED
+-----
+Astray
+22
+180
+70
+MED
+-----
+J. Sammir
+27
+178
+77
+MED
+-----
+Moi Gómez
+19
+174
+65
+MED
+-----
+Víctor Rodríguez
+25
+170
+70
+MED
+-----
+Álex Felip
+22
+180
+77
+MED
+-----
+Lafita
+29
+188
+73
+MED
+-----
+K. Yoda
+25
+182
+73
+MED
+-----
+Juan Rodríguez
+31
+185
+80
+MED
+-----
+Medrán
+20
+174
+66
+MED
+-----
+Ian
+21
+189
+78
+DEL
+-----
+S. Šcepovic
+24
+186
+79
+DEL
+-----
+Á. Vázquez
+22
+182
+76
+DEL
+-----
+Wanderson
+19
+DEL
+-----
+E. Buendia
+17
+165
+DEL
+-----
+29
+Málaga
+======
+A. Cousillas
+24
+182
+77
+POR
+-----
+G. Ochoa
+29
+185
+78
+POR
+-----
+C. Kameni
+29
+186
+86
+POR
+-----
+Flávio
+22
+180
+75
+DEF
+-----
+R. Rosales
+25
+174
+73
+DEF
+-----
+Weligton
+34
+186
+71
+DEF
+-----
+Iván Rodríguez
+18
+180
+68
+DEF
+-----
+M. Torres
+28
+184
+74
+DEF
+-----
+M. Angeleri
+30
+182
+68
+DEF
+-----
+Raúl Albentosa
+25
+193
+89
+DEF
+-----
+E. Filipenko
+25
+190
+85
+DEF
+-----
+A. Boka
+31
+166
+67
+DEF
+-----
+Juan Carlos
+23
+178
+69
+MED
+-----
+N. Amrabat
+26
+179
+79
+MED
+-----
+Pablo
+18
+MED
+-----
+Fabio Espinho
+28
+171
+64
+MED
+-----
+Juanpi
+20
+171
+68
+MED
+-----
+F. Tissone
+27
+182
+75
+MED
+-----
+Duda
+33
+174
+72
+MED
+-----
+Sergi Darder
+20
+180
+71
+MED
+-----
+Recio
+23
+183
+74
+MED
+-----
+H. Mastour
+16
+MED
+-----
+I. Camacho
+23
+182
+80
+MED
+-----
+R. Horta
+19
+173
+61
+DEL
+-----
+R. Santa Cruz
+33
+189
+80
+DEL
+-----
+A. Tighadouini
+21
+DEL
+-----
+Kuki Zalazar
+16
+176
+73
+DEL
+-----
+D. Cop
+24
+DEL
+-----
+Charles
+29
+179
+75
+DEL
+-----

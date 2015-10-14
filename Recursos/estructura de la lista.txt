@@ -1,0 +1,13 @@
+numero de jugadores
+nombre del equipo
+=====
+Nombre
+Edad
+Altura
+Peso
+Posicion
+------
+
+
+Los jugadores con menos de 5 atributos no aparecen en dicho orden,
+se pueden obviar generando de nuevo el txt
