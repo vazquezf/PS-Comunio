@@ -51,9 +51,9 @@ public abstract class aJugadores {
     @Override
     public boolean equals(Object o) {
         boolean iguales= true;
-        iguales=iguales && (this.name==((aJugadores) o).name);
-        iguales=iguales && (this.estado==((aJugadores) o).estado);
-        iguales=iguales && (this.team==((aJugadores) o).team);
+        iguales=iguales && (this.name.equals(((aJugadores) o).name));
+        iguales=iguales && (this.estado.equals(((aJugadores) o).estado));
+        iguales=iguales && (this.team.equals(((aJugadores) o).team));
         iguales=iguales && (this.valor==((aJugadores) o).valor);
         return iguales;
     }

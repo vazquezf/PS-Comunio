@@ -17,6 +17,30 @@ public abstract class aUsuario {
 
     @Override
     public boolean equals(Object o) {
-        return this.nick==((aUsuario) o).nick;
+        return this.getNick().equals(((Usuario) o).getNick());
+    }
+
+    public ListaJugadores getLista() {
+        return lista;
+    }
+
+    public void setLista(ListaJugadores lista) {
+        this.lista = lista;
+    }
+
+    public String getNick() {
+        return nick;
+    }
+
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.jugadores.comunio"
+        applicationId "com.comunio.grupo8.comunio"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
