@@ -1,9 +1,11 @@
 package com.usuarios.comunio;
 
+import java.io.Serializable;
+
 /**
  * Created by Dany on 16/10/2015.
  */
-public class Usuario extends aUsuario{
+public class Usuario extends aUsuario implements Serializable{
     public Usuario (String nick , String pass){
         super (nick);
         this.setPassword(pass);
@@ -11,6 +13,6 @@ public class Usuario extends aUsuario{
 
     @Override
     public boolean equals(Object o) {
-        return (this.getNick().equals(((Usuario) o).getNick()) && this.getPassword().equals(((Usuario) o).getPassword()));
+        return (this.getNick().contentEquals(((Usuario) o).getNick()));
     }
 }

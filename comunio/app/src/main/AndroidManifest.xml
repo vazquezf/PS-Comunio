@@ -8,12 +8,31 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".LoginActivity" >
+        <activity android:name=".StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".MenuStartedActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:label="@string/title_activity_user_login" >
+        </activity>
+        <activity
+            android:name="com.menuUsuario.comunio.UserMenuActivity"
+            android:label="@string/title_player_menu" >
+        </activity>
+        <activity
+            android:name="com.menuUsuario.comunio.NewsActivity"
+            android:label="@string/title_section1">
         </activity>
     </application>
 

@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">Comunio</string>
+    <string name="app_name">ComURJCnio</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_activity_user_login">Acceso</string>
+
+    <string name="title_activity_comunio_menu">Comunio Menu</string>
+    <string name="title_player_menu">Panel de ComURJCnio</string>
+    <string name="title_section1">Noticias</string>
+    <string name="title_section2">Jugadores</string>
+    <string name="title_section3">Alineación</string>
+    <string name="title_section4">Mercado</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="option1">Noticias</string>
+    <string name="option2">Jugadores</string>
+    <string name="option3">Alineación</string>
+    <string name="option4">Mercado</string>
+
+    <string-array name="ejemplo">
+        <item>Noticias 1</item>
+        <item>Noticias 2</item>
+        <item>Noticias 3 </item>
+        <item>Noticias 4</item>
+    </string-array>
+
+
 </resources>

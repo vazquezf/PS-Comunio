@@ -3,7 +3,7 @@ package com.jugadores.comunio;
 /**
  * Created by Dany on 16/10/15.
  */
-public abstract class aJugadores {
+public abstract class aJugadores{
     private String name;
     private String team;
     private int valor;

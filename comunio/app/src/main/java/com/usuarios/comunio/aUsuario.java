@@ -2,10 +2,12 @@ package com.usuarios.comunio;
 
 import com.jugadores.comunio.ListaJugadores;
 
+import java.io.Serializable;
+
 /**
  * Created by Dany on 16/10/15.
  */
-public abstract class aUsuario {
+public abstract class aUsuario implements Serializable {
     private ListaJugadores lista;
     private String nick;
     private String password;

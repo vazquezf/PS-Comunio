@@ -1,5 +1,6 @@
 package com.usuarios.comunio;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -9,13 +10,21 @@ import java.util.ListIterator;
 /**
  * Created by Dany on 16/10/2015.
  */
-public class ListaUsuarios {
+public class ListaUsuarios implements Serializable{
     private ArrayList<aUsuario> users;
+
 
     public ListaUsuarios (){
         this.users = new ArrayList();
     }
 
+    public ArrayList<aUsuario> getUsers(){
+        return this.users;
+    }
+
+    public void setUsers(ArrayList<aUsuario> users){
+        this.users = users;
+    }
     public boolean add (aUsuario usr){
         return this.users.add(usr);
     }
@@ -110,5 +119,20 @@ public class ListaUsuarios {
 
     public boolean addAll(Collection<? extends aUsuario> collection) {
         return users.addAll(collection);
+    }
+
+    public aUsuario findUser(Usuario usuario){
+        Iterator<aUsuario> iter = this.users.iterator();
+        boolean encontrado = false;
+        aUsuario userAux;
+        aUsuario foundUser = null;
+        while(iter.hasNext() && (!encontrado)){
+            userAux = iter.next();
+            if(usuario.equals(userAux)){
+               foundUser = userAux;
+                encontrado = true;
+            }
+        }
+        return foundUser;
     }
 }
