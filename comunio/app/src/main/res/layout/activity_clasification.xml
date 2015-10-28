@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_player_menus"
+    android:weightSum="1"
+    android:id="@+id/number1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CLASIFICACION"
+        android:id="@+id/clasifTittle"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:background="#387a4d" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1"
+        android:id="@+id/numberOne"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Thijs                        22"
+        android:id="@+id/thisj"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2"
+        android:id="@+id/numberTwo"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Savjz                       20"
+        android:id="@+id/savjz"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3"
+        android:id="@+id/numberThree"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PepitoGrillo           18"
+        android:id="@+id/pepitGrillo"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4"
+        android:id="@+id/numberFour"
+        android:textSize="50dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CascadaSucks      10"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp" />
+
+</LinearLayout>
