@@ -41,6 +41,16 @@
             android:label="@string/title_section1"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name="com.menuUsuario.comunio.ClasificationActivity"
+            android:label="@string/title_section5"
+         />
+        <activity
+            android:name="com.menuUsuario.comunio.ClasificationUpdActivity"
+            android:label = "@string/title_section5"
+            />
+
+
     </application>
 
 </manifest>

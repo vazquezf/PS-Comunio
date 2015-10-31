@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.62"></LinearLayout>
+            android:layout_weight="0.46"></LinearLayout>
 
         <Button
             android:layout_width="match_parent"
@@ -87,6 +87,13 @@
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/button3"
             android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASIFICACION"
+            android:id="@+id/classification_button" />
+
     </LinearLayout>
 
     <LinearLayout
