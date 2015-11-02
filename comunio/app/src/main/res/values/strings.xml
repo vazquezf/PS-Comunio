@@ -10,6 +10,7 @@
     <string name="title_section3">Alineación</string>
     <string name="title_section4">Mercado</string>
     <string name="title_section5">Clasificacion</string>
+    <string name="title_section6">Jugadores</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -24,9 +25,9 @@
     <string name="option4">Mercado</string>
 
     <string-array name="ejemplo">
-        <item>ScrumSucks se ha registrado</item>
+        <item>CascadaSucks se ha registrado</item>
         <item>Thijs es ahora lider"</item>
-        <item>ScrumSucks tiene jugadores en el mercado</item>
+        <item>CascadaSucks tiene jugadores en el mercado</item>
         <item>Clasificacion tras jornada</item>
     </string-array>
 

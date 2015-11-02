@@ -57,4 +57,9 @@ public abstract class aJugadores{
         iguales=iguales && (this.valor==((aJugadores) o).valor);
         return iguales;
     }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }

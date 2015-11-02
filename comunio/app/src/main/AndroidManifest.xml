@@ -49,6 +49,10 @@
             android:name="com.menuUsuario.comunio.ClasificationUpdActivity"
             android:label = "@string/title_section5"
             />
+        <activity
+            android:name="com.menuUsuario.comunio.PlayersActivity"
+            android:label = "@string/title_section6"
+            />
 
 
     </application>
