@@ -20,6 +20,10 @@ public class ListaJugadores {
         return jugadores.add(object);
     }
 
+    public ArrayList<aJugadores> getJugadores(){
+        return jugadores;
+    }
+
     public boolean removeAll(Collection<?> collection) {
         return jugadores.removeAll(collection);
     }

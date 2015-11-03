@@ -11,6 +11,7 @@ import com.jugadores.comunio.*;
 
 import com.comunio.grupo8.comunio.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -90,7 +91,7 @@ public class PlayersActivity extends AppCompatActivity {
 
 
         final ArrayAdapter<aJugadores> adapter = new ArrayAdapter<aJugadores>(this,
-                android.R.layout.simple_list_item_1, (List<aJugadores>) list);
+                android.R.layout.simple_list_item_1, list.getJugadores());
 
 
         listview.setAdapter(adapter);

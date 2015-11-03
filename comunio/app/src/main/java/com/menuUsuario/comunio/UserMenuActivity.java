@@ -41,10 +41,15 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
         noti.notificacion("Bienvenido a su panel de usuario. Seleccione cualquiera de las herramientas");
 
         noticias = (Button) findViewById(R.id.newsButton);
+        jugadores = (Button) findViewById(R.id.playersButton);
         clasificacion = (Button) findViewById(R.id.classification_button);
 
         noticias.setOnClickListener(this);
+        jugadores.setOnClickListener(this);
         clasificacion.setOnClickListener(this);
+
+
+
 
     }
 
@@ -62,6 +67,12 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
                 ComunicadorUsuarioLogged.setUser(actualUser);
                 Intent clasif = new Intent(this, ClasificationActivity.class);
                 startActivity(clasif);
+                break;
+            case (R.id.playersButton):
+                ComunicadorUsuarios.setUsuarios(listU);
+                ComunicadorUsuarioLogged.setUser(actualUser);
+                Intent players = new Intent(this, PlayersActivity.class);
+                startActivity(players);
                 break;
         }
     }
