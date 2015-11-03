@@ -11,6 +11,7 @@ import com.comunio.grupo8.comunio.R;
 import com.usuarios.comunio.ListaUsuarios;
 import com.usuarios.comunio.Usuario;
 import com.utils.comunio.AlertUtils;
+import com.utils.comunio.ComunicadorClasifUpdate;
 import com.utils.comunio.ComunicadorUsuarioLogged;
 import com.utils.comunio.ComunicadorUsuarios;
 
@@ -22,7 +23,7 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
     private Usuario actualUser;
     private TextView userNameScreen;
     private Button noticias, jugadores, alineación, mercado, clasificacion;
-
+    private boolean isUpdated;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
 
         listU = ComunicadorUsuarios.getUsuarios();
         actualUser = (Usuario) ComunicadorUsuarioLogged.getUser();
+        isUpdated = ComunicadorClasifUpdate.getUpdate();
 
         userNameScreen = (TextView) findViewById(R.id.userNameTextScreen);
 
@@ -53,6 +55,7 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
 
     }
 
+
     @Override
     public void onClick(View v) {
         switch(v.getId()){
@@ -65,8 +68,16 @@ public class UserMenuActivity extends AppCompatActivity implements View.OnClickL
             case (R.id.classification_button):
                 ComunicadorUsuarios.setUsuarios(listU);
                 ComunicadorUsuarioLogged.setUser(actualUser);
-                Intent clasif = new Intent(this, ClasificationActivity.class);
-                startActivity(clasif);
+                isUpdated = ComunicadorClasifUpdate.getUpdate();
+                if(!isUpdated) {
+                    Intent clasif = new Intent(this, ClasificationActivity.class);
+                    startActivity(clasif);
+                }
+                else{
+                    Intent clasif = new Intent(this, ClasificationUpdActivity.class);
+                    startActivity(clasif);
+                }
+
                 break;
             case (R.id.playersButton):
                 ComunicadorUsuarios.setUsuarios(listU);

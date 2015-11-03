@@ -9,15 +9,19 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.comunio.grupo8.comunio.R;
+import com.utils.comunio.ComunicadorClasifUpdate;
 
 import java.util.List;
 
 public class NewsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
+    private boolean isUpdated;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
+
+        isUpdated = ComunicadorClasifUpdate.getUpdate();
 
         ListView news = (ListView) findViewById(R.id.miLista);
 
@@ -34,7 +38,9 @@ public class NewsActivity extends AppCompatActivity implements AdapterView.OnIte
         switch(i){
             case 3:
                 Intent updClas = new Intent(this, ClasificationUpdActivity.class);
+                ComunicadorClasifUpdate.setUpdated(true);
                 startActivity(updClas);
+
         }
     }
 }
