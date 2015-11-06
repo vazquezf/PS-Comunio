@@ -15,7 +15,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
-import com.menuUsuario.comunio.ClasificationUpdActivity;
 import com.utils.comunio.ComunicadorClasifUpdate;
 
 public class MNews extends AppCompatActivity
