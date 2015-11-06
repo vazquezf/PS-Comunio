@@ -8,7 +8,7 @@ import com.jugadores.comunio.ListaJugadores;
  * Esta clase es utilizada como intermediaria para pasar los datos de una actividad a otra
  */
 public class ComunicadorJugadores {
-    private static ListaJugadores jugadores;
+    private static ListaJugadores jugadores=new ListaJugadores();
 
     public static void setJugadores(ListaJugadores jug){
         jugadores = jug;

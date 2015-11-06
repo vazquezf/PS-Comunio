@@ -11,6 +11,7 @@ public class ComunicadorUsuarios {
 
     private static ListaUsuarios usuarios;
 
+
     public static void setUsuarios(ListaUsuarios us){
         usuarios = us;
     }

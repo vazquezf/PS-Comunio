@@ -49,7 +49,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         AlertUtils noti = new AlertUtils(this);
         switch (v.getId()){
             case (R.id.registerUserButton):
-                String user = userReg.getText().toString();
+                String user = userReg.getText().toString().trim();
                 Editable pass1 = userPass1.getText();
                 Editable pass2 = userPass2.getText();
                 String password = pass1.toString();
@@ -59,7 +59,12 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         Usuario newUser = new Usuario(user, password);
                         if (!listU.contains(newUser)) {
                             listU.add(newUser);
+                            ComunicadorUsuarios.setUsuarios(listU);
                             noti.notificacion("El usuario ha sido registrado con éxito");
+                            Intent menu = new Intent (this, MenuStartedActivity.class);
+                            startActivity(menu);
+
+
                         } else {
                             noti.error("El usuario introducido ya existe");
                         }
@@ -78,7 +83,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
     public void onBackPressed(){
         Intent menu = new Intent (this, MenuStartedActivity.class);
-        ComunicadorUsuarios.setUsuarios(listU);
         startActivity(menu);
+        finish();
     }
 }

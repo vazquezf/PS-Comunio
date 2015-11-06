@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_noticias" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Noticias" />
+        <item android:id="@+id/nav_clasificacion" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Clasificación" />
+        <item android:id="@+id/nav_alineacion" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Alineación" />
+        <item android:id="@+id/nav_equipo" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Equipo" />
+        <item android:id="@+id/nav_mercado" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Mercado" />
+        <item android:id="@+id/nav_jugadores" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Jugadores" />
+    </group>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item android:id="@+id/nav_ajustes_cuenta" android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Ajustes de Cuenta" />
+            <item android:id="@+id/nav_cierre_sesion"
+                android:title="Cerrar Sesión" />
+            <item android:id="@+id/nav_salir_app"
+                android:title="SALIR" />
+        </menu>
+    </item>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

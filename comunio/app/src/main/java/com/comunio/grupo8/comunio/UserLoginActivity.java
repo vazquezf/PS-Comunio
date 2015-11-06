@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.menuUsuario.comunio.UserMenuActivity;
 import com.usuarios.comunio.ListaUsuarios;
 import com.usuarios.comunio.Usuario;
 import com.utils.comunio.AlertUtils;
@@ -35,10 +34,12 @@ public class UserLoginActivity extends AppCompatActivity implements View.OnClick
 
     }
 
+
+
     @Override
     public void onClick(View v) {
         AlertUtils noti = new AlertUtils(this); // Notificador de errores y avisos
-        String nickName = user.getText().toString();
+        String nickName = user.getText().toString().trim();
         String password = pass.getText().toString();
         switch (v.getId()){
             case (R.id.accesButton):
@@ -50,8 +51,9 @@ public class UserLoginActivity extends AppCompatActivity implements View.OnClick
                     if(passReg.contentEquals(pass)){
                         ComunicadorUsuarios.setUsuarios(listU);
                         ComunicadorUsuarioLogged.setUser(userReg);
-                        Intent menuUser = new Intent(this, UserMenuActivity.class);
-                        startActivity(menuUser);
+                        Intent news = new Intent(this, MNews.class);
+                        startActivity(news);
+                        finish();
                     }
                     else{
                         noti.error("La contraseña introducida es incorrecta");
@@ -68,6 +70,7 @@ public class UserLoginActivity extends AppCompatActivity implements View.OnClick
         Intent menu = new Intent (this, MenuStartedActivity.class);
         ComunicadorUsuarios.setUsuarios(listU);
         startActivity(menu);
+        finish();
     }
 
 

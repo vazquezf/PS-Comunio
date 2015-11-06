@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.usuarios.comunio.ListaUsuarios;
+import com.usuarios.comunio.Usuario;
 import com.utils.comunio.ComunicadorUsuarios;
 
 /* listU son los usuarios en la app. Cada actividad tiene unos atributos que seran los principales objetos
@@ -18,11 +19,13 @@ public class StartActivity extends AppCompatActivity {
     private ListaUsuarios listU = new ListaUsuarios();
 
 
+
     protected void startLogin(ListaUsuarios u){
         Intent login = new Intent(this, UserLoginActivity.class);
        // Pasa al comunicador la lista que posteriormente recogemos en la siguiente activity
         ComunicadorUsuarios.setUsuarios(listU);
         startActivity(login);
+        finish();
     }
 
     protected void startRegister(ListaUsuarios u){
@@ -30,6 +33,7 @@ public class StartActivity extends AppCompatActivity {
         // Pasa al comunicador la lista que posteriormente recogemos en la siguiente activity
         ComunicadorUsuarios.setUsuarios(listU);
         startActivity(register);
+        finish();
     }
 
     protected ListaUsuarios getListU(){
@@ -46,6 +50,8 @@ public class StartActivity extends AppCompatActivity {
 
         Button buttonRegister = (Button) findViewById(R.id.button_register);
         Button buttonLogin = (Button) findViewById(R.id.button_login);
+
+        listU.add(new Usuario("Dany","1234"));
 
         buttonRegister.setOnClickListener(
                 new Button.OnClickListener() {
@@ -65,6 +71,9 @@ public class StartActivity extends AppCompatActivity {
                 }
         );
 
+    }
+    public void onBackPressed(){
+        onDestroy();
     }
 
 

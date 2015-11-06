@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".StartActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,41 +21,51 @@
         <activity
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".MenuStartedActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UserLoginActivity"
             android:label="@string/title_activity_user_login"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.menuUsuario.comunio.UserMenuActivity"
             android:label="@string/title_player_menu"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.menuUsuario.comunio.NewsActivity"
             android:label="@string/title_section1"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.menuUsuario.comunio.ClasificationActivity"
-            android:label="@string/title_section5"
-         />
+            android:label="@string/title_section5" />
         <activity
             android:name="com.menuUsuario.comunio.ClasificationUpdActivity"
-            android:label = "@string/title_section5"
-            />
+            android:label="@string/title_section5" />
         <activity
             android:name="com.menuUsuario.comunio.PlayersActivity"
-            android:label = "@string/title_section6"
-            />
-
-
+            android:label="@string/title_section6" />
+        <activity
+            android:name="com.comunio.grupo8.comunio.MJugadores"
+            android:label="@string/title_section6"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.comunio.grupo8.comunio.MNews"
+            android:label="@string/title_section1"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.comunio.grupo8.comunio.MClasificacion"
+            android:label="@string/title_section5"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
