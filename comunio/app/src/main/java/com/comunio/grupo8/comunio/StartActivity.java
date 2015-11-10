@@ -6,8 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.jugadores.comunio.*;
 import com.usuarios.comunio.ListaUsuarios;
 import com.usuarios.comunio.Usuario;
+import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.ComunicadorUsuarios;
 
 /* listU son los usuarios en la app. Cada actividad tiene unos atributos que seran los principales objetos
@@ -51,7 +53,10 @@ public class StartActivity extends AppCompatActivity {
         Button buttonRegister = (Button) findViewById(R.id.button_register);
         Button buttonLogin = (Button) findViewById(R.id.button_login);
 
-        listU.add(new Usuario("Dany","1234"));
+        listU.add(new Usuario("Dany", "1234"));
+        ListaJugadores list=new ListaJugadores();
+        list.add(new Delantero ("Dany","Real Madrid", 20,R.drawable.dany));
+        ComunicadorMercado.setMercado(list);
 
         buttonRegister.setOnClickListener(
                 new Button.OnClickListener() {

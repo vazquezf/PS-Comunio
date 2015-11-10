@@ -10,17 +10,15 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
-import com.utils.comunio.ComunicadorClasifUpdate;
+import com.jugadores.comunio.ListaJugadores;
+import com.utils.comunio.ComunicadorMercado;
+import com.utils.comunio.JugadoresAdapter;
 
-public class MNews extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,AdapterView.OnItemClickListener {
-
-    private boolean isUpdated;
+public class MMercado extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +37,19 @@ public class MNews extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         ViewFlipper v=(ViewFlipper) findViewById(R.id.flipper);
-        isUpdated = ComunicadorClasifUpdate.getUpdate();
 
-        ListView news = (ListView) findViewById(R.id.miLista);
+        ListaJugadores list = ComunicadorMercado.getMercado();
 
-        news.setOnItemClickListener(this);
-        v.setDisplayedChild(0);
+
+        final ListView listview = (ListView) findViewById(R.id.listView);
+
+
+        final JugadoresAdapter adapter = new JugadoresAdapter(this,
+                R.layout.recuadro_jugadores, list.getJugadores());
+
+
+        listview.setAdapter(adapter);
+        v.setDisplayedChild(2);
     }
 
     @Override
@@ -86,7 +91,9 @@ public class MNews extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_noticias) {
-            //Activity actual
+            Intent news=new Intent(this,MNews.class);
+            startActivity(news);
+            finish();
         } else if (id == R.id.nav_clasificacion) {
             Intent clasf=new Intent(this,MClasificacion.class);
             startActivity(clasf);
@@ -96,9 +103,7 @@ public class MNews extends AppCompatActivity
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {
-            Intent jug=new Intent(this,MMercado.class);
-            startActivity(jug);
-            finish();
+            //Activity actual
         } else if (id == R.id.nav_jugadores) {
             Intent jug=new Intent(this,MJugadores.class);
             startActivity(jug);
@@ -119,19 +124,5 @@ public class MNews extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        View v = parent.getSelectedView();
-        int i = (int) id;
-
-        switch(i){
-            case 3:
-                Intent updClas = new Intent(this, MClasificacion.class);
-                ComunicadorClasifUpdate.setUpdated(true);
-                startActivity(updClas);
-
-        }
     }
 }

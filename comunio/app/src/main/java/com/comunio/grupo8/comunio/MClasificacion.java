@@ -89,7 +89,9 @@ public class MClasificacion extends AppCompatActivity
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {
-            //Mercado
+            Intent jug=new Intent(this,MMercado.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_jugadores) {
             Intent jug=new Intent(this,MJugadores.class);
             startActivity(jug);

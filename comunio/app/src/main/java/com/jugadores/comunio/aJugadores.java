@@ -1,5 +1,7 @@
 package com.jugadores.comunio;
 
+import android.graphics.drawable.Drawable;
+
 /**
  * Created by Dany on 16/10/15.
  */
@@ -8,7 +10,15 @@ public abstract class aJugadores{
     private String team;
     private int valor;
     private String estado;
+    private int foto;
 
+    public aJugadores(String nom,String equ, int dinero,int foto){
+        this.name=nom;
+        this.team=equ;
+        this.valor=dinero;
+        this.estado="En forma";
+        this.foto=foto;
+    }
     public aJugadores(String nom,String equ, int dinero){
         this.name=nom;
         this.team=equ;
@@ -46,6 +56,14 @@ public abstract class aJugadores{
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+
+    public void setFoto(int foto) {
+        this.foto = foto;
     }
 
     @Override
