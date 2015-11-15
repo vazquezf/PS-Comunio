@@ -23,6 +23,7 @@
         <include layout="@layout/activity_clasification" />
         <include layout="@layout/activity_players" />
         <include layout="@layout/activity_clasification_actualizada" />
+        <include layout="@layout/activity_alineacion" />
     </ViewFlipper>
 
 </android.support.design.widget.CoordinatorLayout>
