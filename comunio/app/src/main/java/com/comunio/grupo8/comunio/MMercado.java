@@ -13,7 +13,9 @@ import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
+import com.jugadores.comunio.Delantero;
 import com.jugadores.comunio.ListaJugadores;
+import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.JugadoresAdapter;
 
@@ -41,7 +43,7 @@ public class MMercado extends AppCompatActivity
         ListaJugadores list = ComunicadorMercado.getMercado();
 
 
-        final ListView listview = (ListView) findViewById(R.id.listView);
+        final ListView listview = (ListView) findViewById(R.id.listView2);
 
 
         final JugadoresAdapter adapter = new JugadoresAdapter(this,
@@ -49,7 +51,7 @@ public class MMercado extends AppCompatActivity
 
 
         listview.setAdapter(adapter);
-        v.setDisplayedChild(2);
+        v.setDisplayedChild(4);
     }
 
     @Override
@@ -99,7 +101,9 @@ public class MMercado extends AppCompatActivity
             startActivity(clasf);
             finish();
         } else if (id == R.id.nav_alineacion) {
-            //Alineacion
+            Intent jug=new Intent(this,MAlineacion.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {

@@ -57,35 +57,35 @@ public class MAlineacion extends AppCompatActivity
         ListaJugadores ldefensa = new ListaJugadores();
         ListaJugadores lportero = new ListaJugadores();
 
-        for (int i = 0; i<=list.size();i++){
+        for (int i = 0; i<list.size();i++){
                 if(list.get(i) instanceof Delantero){
                     ldelantero.add(list.get(i));
                 }
         }
-        for (int i = 0; i<=list.size();i++){
+        for (int i = 0; i<list.size();i++){
             if(list.get(i)instanceof BandaIzquierda){
                 lizquierda.add(list.get(i));
             }
         }
-        for (int i = 0; i<=list.size();i++){
+        for (int i = 0; i<list.size();i++){
             if(list.get(i) instanceof BandaDerecha){
                 lderecha.add(list.get(i));
             }
         }
-        for (int i = 0; i<=list.size();i++){
+        for (int i = 0; i<list.size();i++){
             if(list.get(i) instanceof Defensa){
                 ldefensa.add(list.get(i));
             }
         }
-        for (int i = 0; i<=list.size();i++){
+        for (int i = 0; i<list.size();i++){
             if(list.get(i)instanceof Portero){
                 lportero.add(list.get(i));
             }
         }
 
-        final Spinner delview = (Spinner) findViewById(R.id.Delantero);
-        final Spinner bizqview = (Spinner) findViewById(R.id.bandaIzquierda);
-        final Spinner bderview = (Spinner) findViewById(R.id.bandaDerecha);
+        final Spinner delview = (Spinner) findViewById(R.id.delantero);
+        final Spinner bizqview = (Spinner) findViewById(R.id.bandaizquierda);
+        final Spinner bderview = (Spinner) findViewById(R.id.bandaderecha);
         final Spinner defview = (Spinner) findViewById(R.id.defensa);
         final Spinner portview = (Spinner) findViewById(R.id.portero);
 
@@ -106,7 +106,7 @@ public class MAlineacion extends AppCompatActivity
         bderview.setAdapter(adapterbder);
         defview.setAdapter(adapterdef);
         portview.setAdapter(adapterpor);
-        v.setDisplayedChild(2);
+        v.setDisplayedChild(5);
 
     }
 
@@ -157,7 +157,7 @@ public class MAlineacion extends AppCompatActivity
             startActivity(clasf);
             finish();
         } else if (id == R.id.nav_alineacion) {
-            //Alineacion
+            //Activity actual
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {
@@ -165,7 +165,9 @@ public class MAlineacion extends AppCompatActivity
             startActivity(jug);
             finish();
         } else if (id == R.id.nav_jugadores) {
-            //Activity actual
+            Intent jug=new Intent(this,MJugadores.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_ajustes_cuenta) {
             //Start ajustes activity
         } else if (id == R.id.nav_cierre_sesion) {

@@ -92,7 +92,9 @@ public class MNews extends AppCompatActivity
             startActivity(clasf);
             finish();
         } else if (id == R.id.nav_alineacion) {
-            //Alineacion
+            Intent jug=new Intent(this,MAlineacion.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {

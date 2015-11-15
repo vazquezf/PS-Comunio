@@ -43,15 +43,6 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.menuUsuario.comunio.ClasificationActivity"
-            android:label="@string/title_section5" />
-        <activity
-            android:name="com.menuUsuario.comunio.ClasificationUpdActivity"
-            android:label="@string/title_section5" />
-        <activity
-            android:name="com.menuUsuario.comunio.PlayersActivity"
-            android:label="@string/title_section6" />
-        <activity
             android:name="com.comunio.grupo8.comunio.MJugadores"
             android:label="@string/title_section6"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -69,6 +60,11 @@
         <activity
             android:name="com.comunio.grupo8.comunio.MMercado"
             android:label="@string/title_section4"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.comunio.grupo8.comunio.MAlineacion"
+            android:label="@string/title_section3"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

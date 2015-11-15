@@ -7,21 +7,21 @@
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Delantero"
+        android:id="@+id/delantero"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.15" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bandaIzquierda"
+        android:id="@+id/bandaizquierda"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.15" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bandaDerecha"
+        android:id="@+id/bandaderecha"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.15" />
 

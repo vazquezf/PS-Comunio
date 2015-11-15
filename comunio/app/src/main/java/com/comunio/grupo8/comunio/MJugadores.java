@@ -17,6 +17,7 @@ import android.widget.ViewFlipper;
 
 import com.jugadores.comunio.*;
 import com.utils.comunio.ComunicadorClasifUpdate;
+import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.JugadoresAdapter;
 
@@ -41,17 +42,17 @@ public class MJugadores extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         ViewFlipper v=(ViewFlipper) findViewById(R.id.flipper);
 
-        ListaJugadores list = ComunicadorMercado.getMercado();
+        ListaJugadores list = ComunicadorJugadores.getJugadores();
 
         final ListView listview = (ListView) findViewById(R.id.listView);
 
 
-        final JugadoresAdapter adapter = new JugadoresAdapter(this,
+        final ArrayAdapter<aJugadores> adapter = new JugadoresAdapter(this,
                 R.layout.recuadro_jugadores, list.getJugadores());
 
 
         listview.setAdapter(adapter);
-        v.setDisplayedChild(2);
+        v.setDisplayedChild(3);
     }
 
     @Override
@@ -101,7 +102,9 @@ public class MJugadores extends AppCompatActivity
             startActivity(clasf);
             finish();
         } else if (id == R.id.nav_alineacion) {
-            //Alineacion
+            Intent jug=new Intent(this,MAlineacion.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {

@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.jugadores.comunio.*;
 import com.usuarios.comunio.ListaUsuarios;
 import com.usuarios.comunio.Usuario;
+import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.ComunicadorUsuarios;
 
@@ -54,9 +55,15 @@ public class StartActivity extends AppCompatActivity {
         Button buttonLogin = (Button) findViewById(R.id.button_login);
 
         listU.add(new Usuario("Dany", "1234"));
-        ListaJugadores list=new ListaJugadores();
-        list.add(new Delantero ("Dany","Real Madrid", 20,R.drawable.dany));
-        ComunicadorMercado.setMercado(list);
+        ListaJugadores merc=new ListaJugadores();
+        ListaJugadores jugadores=new ListaJugadores();
+        merc.add(new Delantero("Dany1", "Real Madrid", 20));
+        merc.add(new Portero("Dany2", "Real Madrid", 20));
+        merc.add(new Defensa("Dany3", "Real Madrid", 20));
+        jugadores.cargarJugadores();
+
+        ComunicadorMercado.setMercado(merc);
+        ComunicadorJugadores.setJugadores(jugadores);
 
         buttonRegister.setOnClickListener(
                 new Button.OnClickListener() {

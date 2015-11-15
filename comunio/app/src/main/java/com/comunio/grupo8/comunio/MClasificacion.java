@@ -36,7 +36,7 @@ public class MClasificacion extends AppCompatActivity
         ViewFlipper v=(ViewFlipper) findViewById(R.id.flipper);
         v.setDisplayedChild(1);
         if (ComunicadorClasifUpdate.getUpdate()==true){
-            v.setDisplayedChild(3);
+            v.setDisplayedChild(2);
         }
     }
 
@@ -85,7 +85,9 @@ public class MClasificacion extends AppCompatActivity
         } else if (id == R.id.nav_clasificacion) {
             //Actividad Actual
         } else if (id == R.id.nav_alineacion) {
-            //Alineacion
+            Intent jug=new Intent(this,MAlineacion.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_equipo) {
             //Equipo
         } else if (id == R.id.nav_mercado) {

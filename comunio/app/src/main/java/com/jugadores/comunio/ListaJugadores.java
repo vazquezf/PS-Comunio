@@ -128,21 +128,21 @@ public class ListaJugadores {
 
     public void cargarJugadores (){
         ArrayList<aJugadores> list=this.getJugadores();
-        list.add(new CentroCampista("Luka Modric", "Real Madrid", 5000000));
-        list.add(new CentroCampista("Toni kross","Real Madrid",4000000));
-        list.add(new CentroCampista("Andres Iniesta","Barcelona FC",5000000));
-        list.add(new CentroCampista("Sergio Busquets","Barcelona FC",4000000));
-        list.add(new CentroCampista("Ivan Rakitic","Barcelona FC",6000000));
-        list.add(new CentroCampista("Koke Resurreccion","Atletico de Madrid",5000000));
-        list.add(new CentroCampista("Gabi","Atletico de Madrid",4000000));
-        list.add(new CentroCampista("Dani Parejo","Valencia",4000000));
-        list.add(new CentroCampista("Andre Gomes","Valencia",5000000));
-        list.add(new CentroCampista("Pablo Piatti","Valencia",4500000));
-        list.add(new CentroCampista("Bruno Soriano","Villareal",4000000));
-        list.add(new CentroCampista("Jonathan dos Santos","Villareal",4500000));
-        list.add(new CentroCampista("Samuel Castillejo","Villareal",4000000));
-        list.add(new CentroCampista("BeÒat","Athletic de Bilbao",4000000));
-        list.add(new CentroCampista("Ever Banega","Sevilla",3000000));
+        list.add(new BandaDerecha("Luka Modric", "Real Madrid", 5000000));
+        list.add(new BandaDerecha("Toni kross","Real Madrid",4000000));
+        list.add(new BandaDerecha("Andres Iniesta","Barcelona FC",5000000));
+        list.add(new BandaDerecha("Sergio Busquets","Barcelona FC",4000000));
+        list.add(new BandaDerecha("Ivan Rakitic","Barcelona FC",6000000));
+        list.add(new BandaDerecha("Koke Resurreccion","Atletico de Madrid",5000000));
+        list.add(new BandaDerecha("Gabi","Atletico de Madrid",4000000));
+        list.add(new BandaDerecha("Dani Parejo","Valencia",4000000));
+        list.add(new BandaIzquierda("Andre Gomes","Valencia",5000000));
+        list.add(new BandaIzquierda("Pablo Piatti","Valencia",4500000));
+        list.add(new BandaIzquierda("Bruno Soriano","Villareal",4000000));
+        list.add(new BandaIzquierda("Jonathan dos Santos","Villareal",4500000));
+        list.add(new BandaIzquierda("Samuel Castillejo","Villareal",4000000));
+        list.add(new BandaIzquierda("BeÒat","Athletic de Bilbao",4000000));
+        list.add(new BandaIzquierda("Ever Banega","Sevilla",3000000));
         list.add(new Portero("Keylor Navas","Real madrid",4000000));
         list.add(new Portero("Kiko casilla","Real madrid",2400000));
         list.add(new Portero("Ter stegen","Barcelona FC",3000000));
