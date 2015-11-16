@@ -43,7 +43,7 @@ public class JugadoresAdapter extends ArrayAdapter<aJugadores> {
                 foto.setImageResource(p.getFoto());
             }
             if (texto!=null){
-                texto.setText(p.getName());
+                texto.setText(p.getName()+" ");
             }
             if (valor!=null){
                 valor.setText(Integer.toString(p.getValor()));

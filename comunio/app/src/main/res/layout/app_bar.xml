@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:fitsSystemWindows="true"
-    tools:context="com.comunio.grupo8.comunio">
+    tools:context="com.comunio.grupo8.comunio"
+    tools:showIn="@layout/activity_drawable">
 
     <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
         android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
@@ -17,14 +18,16 @@
 
 
     <ViewFlipper android:id="@+id/flipper"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:paddingTop="?attr/actionBarSize">
         <include layout="@layout/activity_news" />
         <include layout="@layout/activity_clasification" />
         <include layout="@layout/activity_clasification_actualizada" />
         <include layout="@layout/activity_players" />
         <include layout="@layout/activity_market" />
         <include layout="@layout/activity_alineacion" />
+
     </ViewFlipper>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -57,9 +57,7 @@ public class StartActivity extends AppCompatActivity {
         listU.add(new Usuario("Dany", "1234"));
         ListaJugadores merc=new ListaJugadores();
         ListaJugadores jugadores=new ListaJugadores();
-        merc.add(new Delantero("Dany1", "Real Madrid", 20));
-        merc.add(new Portero("Dany2", "Real Madrid", 20));
-        merc.add(new Defensa("Dany3", "Real Madrid", 20));
+        merc.add(new Delantero("Dany", "Real Madrid", 20));
         jugadores.cargarJugadores();
 
         ComunicadorMercado.setMercado(merc);
