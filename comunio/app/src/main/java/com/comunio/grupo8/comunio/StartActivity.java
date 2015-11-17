@@ -82,9 +82,6 @@ public class StartActivity extends AppCompatActivity {
         );
 
     }
-    public void onBackPressed(){
-        onDestroy();
-    }
 
 
 }
