@@ -2,6 +2,8 @@ package com.jugadores.comunio;
 
 import android.widget.ArrayAdapter;
 
+import com.comunio.grupo8.comunio.R;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -128,7 +130,7 @@ public class ListaJugadores {
 
     public void cargarJugadores (){
         ArrayList<aJugadores> list=this.getJugadores();
-        list.add(new BandaDerecha("Luka Modric", "Real Madrid", 5000000));
+        list.add(new BandaDerecha("Luka Modric du pene scarlata", "Real Madrid", 5000000, R.drawable.modric));
         list.add(new BandaDerecha("Toni kross","Real Madrid",4000000));
         list.add(new BandaDerecha("Andres Iniesta","Barcelona FC",5000000));
         list.add(new BandaDerecha("Sergio Busquets","Barcelona FC",4000000));

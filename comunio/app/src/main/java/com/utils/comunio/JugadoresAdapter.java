@@ -46,7 +46,7 @@ public class JugadoresAdapter extends ArrayAdapter<aJugadores> {
                 texto.setText(p.getName()+" ");
             }
             if (valor!=null){
-                valor.setText(Integer.toString(p.getValor()));
+                valor.setText(Integer.toString(p.getValor())+" Duros");
             }
 
         }

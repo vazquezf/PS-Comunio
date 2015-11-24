@@ -7,4 +7,7 @@ public class Defensa extends aJugadores {
     public Defensa (String name, String team, int valor){
         super(name,team,valor);
     }
+    public Defensa (String name, String team, int valor,int foto){
+        super(name,team,valor,foto);
+    }
 }

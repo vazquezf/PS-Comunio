@@ -7,4 +7,7 @@ public class BandaIzquierda extends aJugadores {
     public BandaIzquierda (String name, String team, int valor){
         super(name,team,valor);
     }
+    public BandaIzquierda (String name, String team, int valor,int foto){
+        super(name,team,valor,foto);
+    }
 }
