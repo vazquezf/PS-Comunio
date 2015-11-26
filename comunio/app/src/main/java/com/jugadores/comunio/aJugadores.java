@@ -25,6 +25,19 @@ public abstract class aJugadores{
         this.valor=dinero;
         this.estado="En forma";
     }
+    public aJugadores(String nom,String equ, int dinero,int foto,String est){
+        this.name=nom;
+        this.team=equ;
+        this.valor=dinero;
+        this.estado=est;
+        this.foto=foto;
+    }
+    public aJugadores(String nom,String equ, int dinero,String est){
+        this.name=nom;
+        this.team=equ;
+        this.valor=dinero;
+        this.estado=est;
+    }
 
     public String getName() {
         return name;

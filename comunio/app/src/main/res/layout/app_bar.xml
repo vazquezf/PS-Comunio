@@ -27,6 +27,7 @@
         <include layout="@layout/activity_players" />
         <include layout="@layout/activity_market" />
         <include layout="@layout/activity_alineacion" />
+        <include layout="@layout/activity_equipo"/>
 
     </ViewFlipper>
 

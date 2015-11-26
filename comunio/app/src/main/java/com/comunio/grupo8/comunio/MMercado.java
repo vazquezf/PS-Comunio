@@ -105,7 +105,9 @@ public class MMercado extends AppCompatActivity
             startActivity(jug);
             finish();
         } else if (id == R.id.nav_equipo) {
-            //Equipo
+            Intent jug=new Intent(this,MEquipo.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_mercado) {
             //Activity actual
         } else if (id == R.id.nav_jugadores) {

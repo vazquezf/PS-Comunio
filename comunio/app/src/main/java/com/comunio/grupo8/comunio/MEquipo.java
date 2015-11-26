@@ -10,28 +10,21 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Spinner;
 import android.widget.ViewFlipper;
 
-import com.jugadores.comunio.BandaDerecha;
-import com.jugadores.comunio.BandaIzquierda;
-import com.jugadores.comunio.Defensa;
-import com.jugadores.comunio.Delantero;
 import com.jugadores.comunio.ListaJugadores;
-import com.jugadores.comunio.Portero;
-import com.usuarios.comunio.Usuario;
-import com.usuarios.comunio.aUsuario;
-import com.utils.comunio.ComunicadorMercado;
+import com.jugadores.comunio.aJugadores;
+import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorUsuarioLogged;
-import com.utils.comunio.ComunicadorUsuarios;
 import com.utils.comunio.JugadoresAdapter;
 
 /**
- * Created by David on 14/11/2015.
+ * Created by David on 26/11/2015.
  */
-public class MAlineacion extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener{
+public class MEquipo extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,63 +44,16 @@ public class MAlineacion extends AppCompatActivity
         ViewFlipper v=(ViewFlipper) findViewById(R.id.flipper);
 
         ListaJugadores list = ComunicadorUsuarioLogged.getUser().getLista();
-        ListaJugadores ldelantero = new ListaJugadores();
-        ListaJugadores lizquierda = new ListaJugadores();
-        ListaJugadores lderecha = new ListaJugadores();
-        ListaJugadores ldefensa = new ListaJugadores();
-        ListaJugadores lportero = new ListaJugadores();
 
-        for (int i = 0; i<list.size();i++){
-                if(list.get(i) instanceof Delantero){
-                    ldelantero.add(list.get(i));
-                }
-        }
-        for (int i = 0; i<list.size();i++){
-            if(list.get(i)instanceof BandaIzquierda){
-                lizquierda.add(list.get(i));
-            }
-        }
-        for (int i = 0; i<list.size();i++){
-            if(list.get(i) instanceof BandaDerecha){
-                lderecha.add(list.get(i));
-            }
-        }
-        for (int i = 0; i<list.size();i++){
-            if(list.get(i) instanceof Defensa){
-                ldefensa.add(list.get(i));
-            }
-        }
-        for (int i = 0; i<list.size();i++){
-            if(list.get(i)instanceof Portero){
-                lportero.add(list.get(i));
-            }
-        }
-
-        final Spinner delview = (Spinner) findViewById(R.id.delantero);
-        final Spinner bizqview = (Spinner) findViewById(R.id.bandaizquierda);
-        final Spinner bderview = (Spinner) findViewById(R.id.bandaderecha);
-        final Spinner defview = (Spinner) findViewById(R.id.defensa);
-        final Spinner portview = (Spinner) findViewById(R.id.portero);
-
-        final JugadoresAdapter adapterdel = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, ldelantero.getJugadores());
-        final JugadoresAdapter adapterbizq = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, lizquierda.getJugadores());
-        final JugadoresAdapter adapterbder = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, lderecha.getJugadores());
-        final JugadoresAdapter adapterdef = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, ldefensa.getJugadores());
-        final JugadoresAdapter adapterpor = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, lportero.getJugadores());
+        final ListView listview = (ListView) findViewById(R.id.listView);
 
 
-        delview.setAdapter(adapterdel);
-        bizqview.setAdapter(adapterbizq);
-        bderview.setAdapter(adapterbder);
-        defview.setAdapter(adapterdef);
-        portview.setAdapter(adapterpor);
-        v.setDisplayedChild(5);
+        final ArrayAdapter<aJugadores> adapter = new JugadoresAdapter(this,
+                R.layout.recuadro_jugadores_equipo, list.getJugadores());
 
+
+        listview.setAdapter(adapter);
+        v.setDisplayedChild(6);
     }
 
     @Override
@@ -157,19 +103,17 @@ public class MAlineacion extends AppCompatActivity
             startActivity(clasf);
             finish();
         } else if (id == R.id.nav_alineacion) {
-            //Activity actual
-        } else if (id == R.id.nav_equipo) {
-            Intent jug=new Intent(this,MEquipo.class);
+            Intent jug=new Intent(this,MAlineacion.class);
             startActivity(jug);
             finish();
+        } else if (id == R.id.nav_equipo) {
+            //Actual
         } else if (id == R.id.nav_mercado) {
             Intent jug=new Intent(this,MMercado.class);
             startActivity(jug);
             finish();
         } else if (id == R.id.nav_jugadores) {
-            Intent jug=new Intent(this,MJugadores.class);
-            startActivity(jug);
-            finish();
+            //Activity actual
         } else if (id == R.id.nav_ajustes_cuenta) {
             //Start ajustes activity
         } else if (id == R.id.nav_cierre_sesion) {

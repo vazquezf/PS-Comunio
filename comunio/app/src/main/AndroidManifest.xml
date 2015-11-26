@@ -67,6 +67,11 @@
             android:label="@string/title_section3"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name="com.comunio.grupo8.comunio.MEquipo"
+            android:label="@string/title_section7"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
