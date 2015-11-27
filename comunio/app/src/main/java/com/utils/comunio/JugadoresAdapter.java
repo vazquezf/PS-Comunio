@@ -38,6 +38,7 @@ public class JugadoresAdapter extends ArrayAdapter<aJugadores> {
             ImageView foto=(ImageView) v.findViewById(R.id.foto);
             TextView texto=(TextView) v.findViewById(R.id.nombre);
             TextView valor=(TextView) v.findViewById(R.id.valor);
+            TextView estado=(TextView) v.findViewById(R.id.lesion);
 
             if (foto!=null){
                 foto.setImageResource(p.getFoto());
@@ -48,6 +49,10 @@ public class JugadoresAdapter extends ArrayAdapter<aJugadores> {
             if (valor!=null){
                 valor.setText(Integer.toString(p.getValor())+" Duros");
             }
+            if (estado!=null){
+                estado.setText(p.getEstado());
+            }
+
 
         }
         return v;

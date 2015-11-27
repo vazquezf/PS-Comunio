@@ -49,11 +49,11 @@ public class MEquipo extends AppCompatActivity
 
 
         final ArrayAdapter<aJugadores> adapter = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores_equipo, list.getJugadores());
+                R.layout.recuadro_jugadores, list.getJugadores());
 
 
         listview.setAdapter(adapter);
-        v.setDisplayedChild(6);
+        v.setDisplayedChild(3);
     }
 
     @Override
@@ -107,13 +107,15 @@ public class MEquipo extends AppCompatActivity
             startActivity(jug);
             finish();
         } else if (id == R.id.nav_equipo) {
-            //Actual
+            //Activity Actual
         } else if (id == R.id.nav_mercado) {
             Intent jug=new Intent(this,MMercado.class);
             startActivity(jug);
             finish();
         } else if (id == R.id.nav_jugadores) {
-            //Activity actual
+            Intent jug=new Intent(this,MJugadores.class);
+            startActivity(jug);
+            finish();
         } else if (id == R.id.nav_ajustes_cuenta) {
             //Start ajustes activity
         } else if (id == R.id.nav_cierre_sesion) {
