@@ -191,6 +191,35 @@ public class ListaJugadores {
         list.add(new Delantero("Aritz Aduriz","Athletic de Bilbao",7000000));
         list.add(new Delantero("Iker Muniain","Athletic de Bilbao",5000000,"lesionado"));
         list.add(new Delantero("IÒaki Williams","Athletic de Bilbao",6000000));
+        list.add(new Delantero("Paco Alcacer","valencia",6000000,"lesionado"));
+        list.add(new Delantero("Roberto Soldado","Villareal",6000000));
+        list.add(new Delantero("Leo Baptistao","Villareal",5000000));
+        list.add(new Delantero("Aritz Aduriz","Athletic de Bilbao",7000000));
+        list.add(new Delantero("Iker Muniain","Athletic de Bilbao",5000000,"lesionado"));
+        list.add(new Delantero("IÒaki Williams","Athletic de Bilbao",6000000));
         this.setJugadores(list);
     }
+
+    public void cargarJugadoresMercado(){
+        ArrayList<aJugadores> list=this.getJugadores();
+        list.add(new Delantero("Paco Alcacer","valencia",6000000,"lesionado"));
+        list.add(new Delantero("Roberto Soldado","Villareal",6000000));
+        list.add(new Delantero("Leo Baptistao","Villareal",5000000));
+        list.add(new Delantero("Aritz Aduriz","Athletic de Bilbao",7000000));
+        list.add(new Delantero("Iker Muniain","Athletic de Bilbao",5000000,"lesionado"));
+        list.add(new Delantero("IÒaki Williams","Athletic de Bilbao",6000000));
+    }
+
+    public void cargarJugadoresUsuario() {
+        ArrayList<aJugadores> list = this.getJugadores();
+        list.add(new Delantero("Karim Benzema", "Real madrid", 10000000, "lesionado"));
+        list.add(new Delantero("Gareth Bale", "Real madrid", 10000000));
+        list.add(new Delantero("Lionel Messi", "Barcelona FC", 12000000));
+        list.add(new Delantero("Luis Suarez", "Barcelona FC", 10000000));
+        list.add(new Delantero("Neymar jr", "Barcelona FC", 10000000));
+        list.add(new Delantero("Fernando Torres", "Atletico de Madrid", 5000000));
+        list.add(new Delantero("Jackson Martinez", "Atletico de Madrid", 5000000));
+        list.add(new Delantero("Antoine Griezzmann", "Atletico de Madrid", 5000000));
+    }
+
 }

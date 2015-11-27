@@ -15,6 +15,7 @@ import android.widget.ViewFlipper;
 
 import com.jugadores.comunio.Delantero;
 import com.jugadores.comunio.ListaJugadores;
+import com.usuarios.comunio.Usuario;
 import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.JugadoresAdapter;
@@ -22,13 +23,14 @@ import com.utils.comunio.JugadoresAdapter;
 public class MMercado extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawable);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

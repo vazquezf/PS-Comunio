@@ -24,6 +24,7 @@ import com.utils.comunio.JugadoresAdapter;
 public class MJugadores extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +46,6 @@ public class MJugadores extends AppCompatActivity
         ListaJugadores list = ComunicadorJugadores.getJugadores();
 
         final ListView listview = (ListView) findViewById(R.id.listView);
-
 
         final ArrayAdapter<aJugadores> adapter = new JugadoresAdapter(this,
                 R.layout.recuadro_jugadores, list.getJugadores());

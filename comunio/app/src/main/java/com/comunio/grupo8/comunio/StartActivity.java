@@ -54,14 +54,19 @@ public class StartActivity extends AppCompatActivity {
         Button buttonRegister = (Button) findViewById(R.id.button_register);
         Button buttonLogin = (Button) findViewById(R.id.button_login);
 
-        listU.add(new Usuario("Dany", "1234"));
+        Usuario user = new Usuario("Dany", "1234");
+        listU.add(user);
         ListaJugadores merc=new ListaJugadores();
         ListaJugadores jugadores=new ListaJugadores();
-        merc.add(new Delantero("Dany", "Real Madrid", 20));
+        ListaJugadores jugadoresUsuario = new ListaJugadores();
+        merc.cargarJugadoresMercado();
         jugadores.cargarJugadores();
+        jugadoresUsuario.cargarJugadoresUsuario();
+        user.setLista(jugadoresUsuario);
 
         ComunicadorMercado.setMercado(merc);
         ComunicadorJugadores.setJugadores(jugadores);
+
 
         buttonRegister.setOnClickListener(
                 new Button.OnClickListener() {
