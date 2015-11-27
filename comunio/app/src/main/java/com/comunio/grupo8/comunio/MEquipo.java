@@ -10,6 +10,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
@@ -17,6 +19,7 @@ import android.widget.ViewFlipper;
 import com.jugadores.comunio.ListaJugadores;
 import com.jugadores.comunio.aJugadores;
 import com.utils.comunio.ComunicadorJugadores;
+import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.ComunicadorUsuarioLogged;
 import com.utils.comunio.JugadoresAdapter;
 
@@ -24,7 +27,11 @@ import com.utils.comunio.JugadoresAdapter;
  * Created by David on 26/11/2015.
  */
 public class MEquipo extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
+
+    private ListaJugadores equipo;
+    private JugadoresAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,8 +55,11 @@ public class MEquipo extends AppCompatActivity
         final ListView listview = (ListView) findViewById(R.id.listView);
 
 
-        final ArrayAdapter<aJugadores> adapter = new JugadoresAdapter(this,
+        adapter = new JugadoresAdapter(this,
                 R.layout.recuadro_jugadores, list.getJugadores());
+
+        listview.setOnItemClickListener(this);
+        equipo = list;
 
 
         listview.setAdapter(adapter);
@@ -132,5 +142,15 @@ public class MEquipo extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        ListaJugadores merc = ComunicadorMercado.getMercado();
+        aJugadores jug = equipo.get(position);
+        equipo.remove(position);
+        merc.add(jug);
+        ComunicadorMercado.setMercado(merc);
+        adapter.notifyDataSetChanged();
     }
 }
