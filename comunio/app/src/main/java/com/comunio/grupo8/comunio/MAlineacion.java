@@ -91,6 +91,9 @@ public class MAlineacion extends AppCompatActivity
 
         final JugadoresAdapter adapterdel = new JugadoresAdapter(this,
                 R.layout.recuadro_jugadores, ldelantero.getJugadores());
+
+        adapterdel.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         final JugadoresAdapter adapterbizq = new JugadoresAdapter(this,
                 R.layout.recuadro_jugadores, lizquierda.getJugadores());
         final JugadoresAdapter adapterbder = new JugadoresAdapter(this,
