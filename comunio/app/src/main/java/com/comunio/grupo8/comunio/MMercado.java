@@ -9,21 +9,29 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
 import com.jugadores.comunio.Delantero;
 import com.jugadores.comunio.ListaJugadores;
+import com.jugadores.comunio.aJugadores;
 import com.usuarios.comunio.Usuario;
+import com.usuarios.comunio.aUsuario;
 import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
+import com.utils.comunio.ComunicadorUsuarioLogged;
 import com.utils.comunio.JugadoresAdapter;
 
 public class MMercado extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
 
 
+    private ListaJugadores jugadores = new ListaJugadores();
+    private JugadoresAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,17 +50,18 @@ public class MMercado extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         ViewFlipper v=(ViewFlipper) findViewById(R.id.flipper);
 
-        ListaJugadores list = ComunicadorMercado.getMercado();
+        jugadores = ComunicadorMercado.getMercado();
 
 
         final ListView listview = (ListView) findViewById(R.id.listView2);
 
 
-        final JugadoresAdapter adapter = new JugadoresAdapter(this,
-                R.layout.recuadro_jugadores, list.getJugadores());
+        adapter = new JugadoresAdapter(this,
+                R.layout.recuadro_jugadores, jugadores.getJugadores());
 
 
         listview.setAdapter(adapter);
+        listview.setOnItemClickListener(this);
         v.setDisplayedChild(4);
     }
 
@@ -132,5 +141,15 @@ public class MMercado extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+        aUsuario us = ComunicadorUsuarioLogged.getUser();
+        ListaJugadores jugs = us.getLista();
+        jugs.add(jugadores.remove(position));
+        ComunicadorUsuarioLogged.setUser(us);
+        adapter.notifyDataSetChanged();
     }
 }
