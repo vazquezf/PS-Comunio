@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:divider="#000000"
-        android:dividerHeight="2px"
+        android:dividerHeight="2dp"
         android:adjustViewBounds="true"/>
 
 </RelativeLayout>

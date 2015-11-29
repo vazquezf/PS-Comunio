@@ -109,7 +109,7 @@ public class MAlineacion extends AppCompatActivity
         bderview.setAdapter(adapterbder);
         defview.setAdapter(adapterdef);
         portview.setAdapter(adapterpor);
-        v.setDisplayedChild(5);
+        v.setDisplayedChild(4);
 
     }
 

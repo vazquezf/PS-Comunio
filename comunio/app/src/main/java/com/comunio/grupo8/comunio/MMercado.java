@@ -1,5 +1,6 @@
 package com.comunio.grupo8.comunio;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -30,8 +32,9 @@ public class MMercado extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
 
 
-    private ListaJugadores jugadores = new ListaJugadores();
+    private ListaJugadores jugadores ;
     private JugadoresAdapter adapter;
+    private int posicion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,7 @@ public class MMercado extends AppCompatActivity
         jugadores = ComunicadorMercado.getMercado();
 
 
-        final ListView listview = (ListView) findViewById(R.id.listView2);
+        final ListView listview = (ListView) findViewById(R.id.listView);
 
 
         adapter = new JugadoresAdapter(this,
@@ -62,7 +65,7 @@ public class MMercado extends AppCompatActivity
 
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(this);
-        v.setDisplayedChild(4);
+        v.setDisplayedChild(3);
     }
 
     @Override
@@ -146,10 +149,33 @@ public class MMercado extends AppCompatActivity
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        aUsuario us = ComunicadorUsuarioLogged.getUser();
-        ListaJugadores jugs = us.getLista();
-        jugs.add(jugadores.remove(position));
-        ComunicadorUsuarioLogged.setUser(us);
-        adapter.notifyDataSetChanged();
+        posicion=position;
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle("Confirmar Compra");
+        builder.setMessage("¿Estás seguro de comprar a " + jugadores.get(posicion).getName() + " ?");
+
+        builder.setPositiveButton("SI", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                aUsuario us = ComunicadorUsuarioLogged.getUser();
+                ListaJugadores jugs = us.getLista();
+                jugs.add(jugadores.remove(posicion));
+                ComunicadorUsuarioLogged.setUser(us);
+                adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            }
+
+        });
+
+        builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // Do nothing
+                dialog.dismiss();
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }

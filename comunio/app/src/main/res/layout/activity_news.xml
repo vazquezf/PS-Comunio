@@ -26,7 +26,8 @@
                 android:layout_height="match_parent"
                 android:entries="@array/ejemplo"
                 android:id="@+id/miLista"
-            />
+                android:divider="#000000"
+                android:dividerHeight="2dp"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

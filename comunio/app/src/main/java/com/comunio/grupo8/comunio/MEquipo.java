@@ -1,5 +1,6 @@
 package com.comunio.grupo8.comunio;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -7,18 +8,17 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
 import com.jugadores.comunio.ListaJugadores;
 import com.jugadores.comunio.aJugadores;
-import com.utils.comunio.ComunicadorJugadores;
 import com.utils.comunio.ComunicadorMercado;
 import com.utils.comunio.ComunicadorUsuarioLogged;
 import com.utils.comunio.JugadoresAdapter;
@@ -31,6 +31,7 @@ public class MEquipo extends AppCompatActivity
 
     private ListaJugadores equipo;
     private JugadoresAdapter adapter;
+    private int posicion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,11 +147,36 @@ public class MEquipo extends AppCompatActivity
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        ListaJugadores merc = ComunicadorMercado.getMercado();
-        aJugadores jug = equipo.get(position);
-        equipo.remove(position);
-        merc.add(jug);
-        ComunicadorMercado.setMercado(merc);
-        adapter.notifyDataSetChanged();
+        posicion=position;
+        aJugadores jug = equipo.get(posicion);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle("Confirmar Venta");
+        builder.setMessage("¿Estás seguro de vender a " + jug.getName() + " ?");
+
+        builder.setPositiveButton("SI", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                ListaJugadores merc = ComunicadorMercado.getMercado();
+                merc.add(equipo.get(posicion));
+                equipo.remove(posicion);
+                ComunicadorMercado.setMercado(merc);
+                adapter.notifyDataSetChanged();
+                dialog.dismiss();
+            }
+
+        });
+
+        builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // Do nothing
+                dialog.dismiss();
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+
     }
+
 }
